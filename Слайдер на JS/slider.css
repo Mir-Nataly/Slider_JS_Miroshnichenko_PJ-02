@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "NunitoSans-Italic";
+    src: url("./fonts/NunitoSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url("./fonts/NunitoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "YesevaOne-Regular";
+    src: url("./fonts/YesevaOne-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: NunitoSans-Regular, Arial;
+    box-sizing: border-box;
+}
+
+.slider {
+    max-width: 1256px;
+    margin: 0 auto;
+    background-color: black;
+    height: 600px;
+
+}
+.image {
+    background-image: url(./images1/стулья1.jpg);
+    background-size: cover;
+    width: 679px;
+    height: 482px;
+}
+
+.spisok {
+    font-family: "YesevaOne-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 679px;
+    padding-left: 0;
+    color: white;
+    
+
+}
+
+#point1, #point2, #point3 {
+    background-color: black;
+    padding: 0;
+    border: 0;
+}
+
+#prev, #next {
+    background-color: black;
+    padding: 0;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+
+.rostov1 {
+    color: #E3B873;
+    border-bottom: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #E3B873;
+}
+
+.slider-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 200px;
+}
+
+.kolonki {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text2 {
+    font-family: NunitoSans-Regular, Arial;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    
+}
+
+.text3 {
+    font-family: NunitoSans-Regular, Arial;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    
+}
+
+.left {
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+h2 {
+    margin: 0;
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 253px;
+    letter-spacing: -0.07em;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 160px 213px;
+}
+
+h3 {
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.slider-control {
+    color: white;
+}
